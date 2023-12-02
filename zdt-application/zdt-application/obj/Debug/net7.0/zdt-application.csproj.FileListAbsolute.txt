@@ -1,0 +1,171 @@
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\appsettings.json
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\zdt-application.exe
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\zdt-application.deps.json
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\zdt-application.runtimeconfig.json
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\zdt-application.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\zdt-application.pdb
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\BoDi.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Gherkin.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\TechTalk.SpecFlow.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\SpecFlow.Internal.Json.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.csproj.AssemblyReference.cache
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.AssemblyInfoInputs.cache
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.AssemblyInfo.cs
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.csproj.CoreCompileInputs.cache
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\staticwebassets\msbuild.zdt-application.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\staticwebassets\msbuild.build.zdt-application.props
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.zdt-application.props
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.zdt-application.props
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\scopedcss\bundle\zdt-application.styles.css
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.csproj.CopyComplete
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\refint\zdt-application.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.pdb
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.genruntimeconfig.cache
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\ref\zdt-application.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Humanizer.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\elton\Source\Repos\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\System.CodeDom.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\appsettings.Development.json
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\appsettings.json
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\zdt-application.exe
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\zdt-application.deps.json
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\zdt-application.runtimeconfig.json
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\zdt-application.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\zdt-application.pdb
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Azure.Core.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Azure.Identity.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\BoDi.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Gherkin.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Humanizer.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\TechTalk.SpecFlow.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\SpecFlow.Internal.Json.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\System.CodeDom.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\System.Memory.Data.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.csproj.AssemblyReference.cache
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.AssemblyInfoInputs.cache
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.AssemblyInfo.cs
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.csproj.CoreCompileInputs.cache
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.MvcApplicationPartsAssemblyInfo.cs
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.MvcApplicationPartsAssemblyInfo.cache
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\staticwebassets\msbuild.zdt-application.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\staticwebassets\msbuild.build.zdt-application.props
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.zdt-application.props
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.zdt-application.props
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\staticwebassets.build.json
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\staticwebassets.development.json
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\scopedcss\bundle\zdt-application.styles.css
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.csproj.CopyComplete
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\refint\zdt-application.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.pdb
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.genruntimeconfig.cache
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\ref\zdt-application.dll
+D:\Msc\Semestri 3\TDD\Project\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
