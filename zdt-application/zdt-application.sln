@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zdt-application", "zdt-application\zdt-application.csproj", "{1261B776-D3EF-4CD4-9BE9-FCD68DEB0E03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zdt-application", "zdt-application\zdt-application.csproj", "{1261B776-D3EF-4CD4-9BE9-FCD68DEB0E03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecFlowZdt", "..\zdt-testing\SpecFlowZdt\SpecFlowZdt\SpecFlowZdt.csproj", "{76FE08D1-429A-4B4A-AA9B-F83F45646066}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1261B776-D3EF-4CD4-9BE9-FCD68DEB0E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1261B776-D3EF-4CD4-9BE9-FCD68DEB0E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1261B776-D3EF-4CD4-9BE9-FCD68DEB0E03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76FE08D1-429A-4B4A-AA9B-F83F45646066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76FE08D1-429A-4B4A-AA9B-F83F45646066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76FE08D1-429A-4B4A-AA9B-F83F45646066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76FE08D1-429A-4B4A-AA9B-F83F45646066}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

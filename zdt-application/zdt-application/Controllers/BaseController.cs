@@ -1,4 +1,5 @@
 ﻿using HRM.DTOs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.Identity;
@@ -28,6 +29,13 @@ namespace zdt_application.Controllers
         {
             _userManager = userManager;
             _configuration = configuration;
+        }
+
+        [AllowAnonymous]
+        [HttpGet]
+        public async Task<ActionResult> CheckConnectivity()
+        {
+            return Ok();
         }
 
         public override async Task OnActionExecutionAsync(ActionExecutingContext filterContext, ActionExecutionDelegate next)
