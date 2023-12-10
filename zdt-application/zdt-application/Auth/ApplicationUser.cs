@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using zdt_application.Models;
 
 namespace zdt_application.Auth
 {
@@ -9,5 +10,6 @@ namespace zdt_application.Auth
         public DateTime RefreshTokenExpiryTime { get; set; }
         public bool IsActive { get; set; }
         public bool? isLoggedIn { get; set; }
+        public ICollection<UserLeague>? UserPinnedLeagues { get; set;}
     }
 }

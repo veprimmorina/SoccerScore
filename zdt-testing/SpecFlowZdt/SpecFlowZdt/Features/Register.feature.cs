@@ -127,8 +127,8 @@ this.ScenarioInitialize(scenarioInfo);
                             "P@ssw0rd",
                             "P@ssw0rd",
                             "1234567890",
-                            "John",
-                            "Doe"});
+                            "Test",
+                            "Test"});
 #line 6
     testRunner.When("I send a POST request to the register endpoint with the following data:", ((string)(null)), table1, "When ");
 #line hidden

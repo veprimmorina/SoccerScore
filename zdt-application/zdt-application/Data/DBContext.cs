@@ -1,11 +1,18 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using zdt_application.Auth;
+using zdt_application.Models;
 
 namespace zdt_application.Data
 {
     public class DBContext : IdentityDbContext<ApplicationUser>
     {
+        public DbSet<PinnedLeagues> PinnedLeagues { get; set; }
+        public DbSet<UserLeague> UserPinnedLeagues { get; set; }
+        public DbSet<UserComment> UserComments { get; set; }
+        public DbSet<UserMatchPrediction> UserMatchPredictions { get; set; }
+        public DbSet<MatchRating> MatchRatings { get; set; }
+        public DbSet<MostClickedMatch> ClickedMatches { get; set; }
         public DBContext()
         {
 
@@ -16,6 +23,24 @@ namespace zdt_application.Data
 
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<UserLeague>()
+                .HasKey(upl => new { upl.UserId, upl.PinnedLeaguesId });
+
+            modelBuilder.Entity<UserLeague>()
+                .HasOne(u => u.PinnedLeagues)
+                .WithMany(p => p.UserPinnedLeagues)
+                .HasForeignKey(upl => upl.UserId);
+
+            modelBuilder.Entity<UserLeague>()
+                .HasOne(upl => upl.PinnedLeagues)
+                .WithMany(pl => pl.UserPinnedLeagues)
+                .HasForeignKey(upl => upl.PinnedLeaguesId);
+
+        }
 
 
 

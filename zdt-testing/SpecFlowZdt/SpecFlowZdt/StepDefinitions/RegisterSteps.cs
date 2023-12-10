@@ -30,13 +30,5 @@ namespace SpecFlowZdt.StepDefinitions
             {
                 Assert.Equal(200, (int)_response.StatusCode);
             }
-            /*
-            [And(@"the response should contain the message ""(.*)""")]
-            public async Task ThenTheResponseShouldContainTheMessage(string expectedMessage)
-            {
-                var responseContent = await _response.Content.ReadAsStringAsync();
-                Assert.Contains(expectedMessage, responseContent);
-            }
-            */
     }
 }
