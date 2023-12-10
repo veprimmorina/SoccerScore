@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace SpecFlowZdt.Features
+namespace SpecFlowZdt.Features.Results
 {
     using TechTalk.SpecFlow;
     using System;
@@ -19,7 +19,7 @@ namespace SpecFlowZdt.Features
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.9.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public partial class RegisterTestingFeature : object, Xunit.IClassFixture<RegisterTestingFeature.FixtureData>, System.IDisposable
+    public partial class GetMatchesByDateFeature : object, Xunit.IClassFixture<GetMatchesByDateFeature.FixtureData>, System.IDisposable
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
@@ -28,10 +28,10 @@ namespace SpecFlowZdt.Features
         
         private Xunit.Abstractions.ITestOutputHelper _testOutputHelper;
         
-#line 1 "Register.feature"
+#line 1 "GetMatchesByDate.feature"
 #line hidden
         
-        public RegisterTestingFeature(RegisterTestingFeature.FixtureData fixtureData, SpecFlowZdt_XUnitAssemblyFixture assemblyFixture, Xunit.Abstractions.ITestOutputHelper testOutputHelper)
+        public GetMatchesByDateFeature(GetMatchesByDateFeature.FixtureData fixtureData, SpecFlowZdt_XUnitAssemblyFixture assemblyFixture, Xunit.Abstractions.ITestOutputHelper testOutputHelper)
         {
             this._testOutputHelper = testOutputHelper;
             this.TestInitialize();
@@ -40,7 +40,7 @@ namespace SpecFlowZdt.Features
         public static void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Register Testing", null, ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features/Results", "GetMatchesByDate", null, ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -80,16 +80,16 @@ namespace SpecFlowZdt.Features
             this.TestTearDown();
         }
         
-        [Xunit.SkippableFactAttribute(DisplayName="Registering a new user")]
-        [Xunit.TraitAttribute("FeatureTitle", "Register Testing")]
-        [Xunit.TraitAttribute("Description", "Registering a new user")]
-        [Xunit.TraitAttribute("Category", "mytag")]
-        public virtual void RegisteringANewUser()
+        [Xunit.SkippableFactAttribute(DisplayName="Get matches by date")]
+        [Xunit.TraitAttribute("FeatureTitle", "GetMatchesByDate")]
+        [Xunit.TraitAttribute("Description", "Get matches by date")]
+        [Xunit.TraitAttribute("Category", "tag1")]
+        public virtual void GetMatchesByDate()
         {
             string[] tagsOfScenario = new string[] {
-                    "mytag"};
+                    "tag1"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Registering a new user", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Get matches by date", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 4
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -111,29 +111,14 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 5
-    testRunner.Given("the application is available for registration", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("the main application is available", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-                TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
-                            "Username",
-                            "Email",
-                            "Password",
-                            "ConfirmationPassword",
-                            "PhoneNumber",
-                            "Name",
-                            "Surname"});
-                table1.AddRow(new string[] {
-                            "testuser",
-                            "test@example.com",
-                            "P@ssw0rd",
-                            "P@ssw0rd",
-                            "1234567890",
-                            "Test",
-                            "Test"});
 #line 6
-    testRunner.When("I send a POST request to the register endpoint with the following data:", ((string)(null)), table1, "When ");
+ testRunner.When("I send a GET request to the get matches by date endpoint with specified date \"202" +
+                        "3-12-10\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-#line 9
-    testRunner.Then("the response status code should be 200 OK for registration", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line 7
+ testRunner.Then("the response status code should be 200 OK", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -146,12 +131,12 @@ this.ScenarioInitialize(scenarioInfo);
             
             public FixtureData()
             {
-                RegisterTestingFeature.FeatureSetup();
+                GetMatchesByDateFeature.FeatureSetup();
             }
             
             void System.IDisposable.Dispose()
             {
-                RegisterTestingFeature.FeatureTearDown();
+                GetMatchesByDateFeature.FeatureTearDown();
             }
         }
     }

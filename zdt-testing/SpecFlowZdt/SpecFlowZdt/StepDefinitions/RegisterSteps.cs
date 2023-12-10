@@ -10,11 +10,12 @@ namespace SpecFlowZdt.StepDefinitions
     {
             private readonly HttpClient _httpClient = new HttpClient();
             private HttpResponseMessage _response;
+            private ApiHelper _apiHelper = new ApiHelper();
 
-            [Given(@"the registration endpoint is available")]
-            public async Task GivenTheRegistrationEndpointIsAvailable()
+            [Given(@"the application is available for registration")]
+            public async Task GivenTheApplicationIsAvailableForRegistration()
             {
-                _response = await _httpClient.GetAsync("https://localhost:7205/api/Base");
+                _response = await _httpClient.GetAsync(_apiHelper.GetApi()+"/Base");
             }
 
             [When(@"I send a POST request to the register endpoint with the following data:")]
@@ -22,11 +23,11 @@ namespace SpecFlowZdt.StepDefinitions
             {
                 var registerModel = table.CreateInstance<RegisterModel>();
                 var content = new StringContent(JsonConvert.SerializeObject(registerModel), Encoding.UTF8, "application/json");
-                _response = await _httpClient.PostAsync("https://localhost:7205/api/Authenticate/register", content);
+                _response = await _httpClient.PostAsync(_apiHelper.GetApi()+"/Authenticate/register", content);
             }
 
-            [Then(@"the response status code should be (\d+) OK")]
-            public void ThenTheResponseStatusCodeShouldBeOK(int statusCode)
+            [Then(@"the response status code should be (\d+) OK for registration")]
+            public void ThenTheResponseStatusCodeShouldBeOKForRegistration(int statusCode)
             {
                 Assert.Equal(200, (int)_response.StatusCode);
             }
