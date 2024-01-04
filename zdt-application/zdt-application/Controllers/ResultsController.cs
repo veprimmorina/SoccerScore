@@ -7,6 +7,7 @@ using zdt_application.Data;
 using zdt_application.DTOs;
 using zdt_application.Models;
 using static System.Runtime.InteropServices.JavaScript.JSType;
+using UserResultPredictionDto = zdt_application.DTOs.UserResultPredictionDto;
 
 namespace zdt_application.Controllers
 {
@@ -25,7 +26,7 @@ namespace zdt_application.Controllers
         [HttpGet]
         public async Task<ActionResult> GetFullInfo()
         {
-            string url = "http://api.isportsapi.com/sport/football/league/basic?api_key=NDYCvrKY4dBFgk9w";
+            string url = "http://api.isportsapi.com/sport/football/league/basic?api_key=DHABkUL14VHXnFtA";
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
 
             // GET request
@@ -45,7 +46,7 @@ namespace zdt_application.Controllers
         [HttpGet("getMatchesByDate/{date}")]
         public async Task<ActionResult> GetMatchesByDate(string date)
         {
-            string url = $"http://api.isportsapi.com/sport/football/league/basic?api_key=NDYCvrKY4dBFgk9w&date={date}";
+            string url = $"http://api.isportsapi.com/sport/football/league/basic?api_key=DHABkUL14VHXnFtA&date={date}";
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
 
             // GET request
@@ -65,7 +66,7 @@ namespace zdt_application.Controllers
         [HttpGet("getMatchesById/{id}")]
         public async Task<ActionResult> GetMatchesById(string id)
         {
-            string url = $"http://api.isportsapi.com/sport/football/league/basic?api_key=NDYCvrKY4dBFgk9w&matchid={id}";
+            string url = $"http://api.isportsapi.com/sport/football/league/basic?api_key=DHABkUL14VHXnFtA&matchid={id}";
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
 
             // GET request
@@ -85,7 +86,7 @@ namespace zdt_application.Controllers
         [HttpGet("getAllSeasonMatchesByLeagueId/{id}")]
         public async Task<ActionResult> GetAllSeasonMatchesByLeagueId(string id)
         {
-            string url = $"http://api.isportsapi.com/sport/football/league/basic?api_key=NDYCvrKY4dBFgk9w&leagueId={id}";
+            string url = $"http://api.isportsapi.com/sport/football/league/basic?api_key=DHABkUL14VHXnFtA&leagueId={id}";
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
 
             // GET request
@@ -105,7 +106,7 @@ namespace zdt_application.Controllers
         [HttpGet("getTeamByName/{teamName}")]
         public async Task<ActionResult> GetTeamInfo(string teamName)
         {
-            string url = $"http://api.isportsapi.com/sport/football/team/search?api_key=NDYCvrKY4dBFgk9w&name={teamName}";
+            string url = $"http://api.isportsapi.com/sport/football/team/search?api_key=DHABkUL14VHXnFtA&name={teamName}";
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
 
             // GET request
@@ -125,7 +126,7 @@ namespace zdt_application.Controllers
         [HttpGet("getLeagueById/{id}")]
         public async Task<ActionResult> GetLeagueInfo(string id)
         {
-            string url = $"http://api.isportsapi.com/sport/football/team?api_key=NDYCvrKY4dBFgk9w&leagueId={id}";
+            string url = $"http://api.isportsapi.com/sport/football/team?api_key=DHABkUL14VHXnFtA&leagueId={id}";
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
 
             // GET request
@@ -145,7 +146,7 @@ namespace zdt_application.Controllers
         [HttpGet("getPlayersByTeamId/{id}")]
         public async Task<ActionResult> GetPlayersByTeam(string id)
         {
-            string url = $"http://api.isportsapi.com/sport/football/player?api_key=NDYCvrKY4dBFgk9w&teamId={id}";
+            string url = $"http://api.isportsapi.com/sport/football/player?api_key=DHABkUL14VHXnFtA&teamId={id}";
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
 
             // GET request
@@ -165,7 +166,7 @@ namespace zdt_application.Controllers
         [HttpGet("getPlayerStatsByLeagueId/{id}")]
         public async Task<ActionResult> GetPlayerStatsByLeague(string id)
         {
-            string url = $"http://api.isportsapi.com/sport/football/playerstats/league?api_key=NDYCvrKY4dBFgk9w&leagueId={id}";
+            string url = $"http://api.isportsapi.com/sport/football/playerstats/league?api_key=DHABkUL14VHXnFtA&leagueId={id}";
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
 
             // GET request
@@ -185,7 +186,7 @@ namespace zdt_application.Controllers
         [HttpGet("getLeagueStandingsById/{id}")]
         public async Task<ActionResult> GetStandingsByLeague(string id)
         {
-            string url = $"http://api.isportsapi.com/sport/football/standing/league?api_key=NDYCvrKY4dBFgk9w&leagueId={id}";
+            string url = $"http://api.isportsapi.com/sport/football/standing/league?api_key=DHABkUL14VHXnFtA&leagueId={id}";
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
 
             // GET request
@@ -205,7 +206,7 @@ namespace zdt_application.Controllers
         [HttpGet("getTopScoresByLeague/{id}")]
         public async Task<ActionResult> GetTopScorersByLeague(string id)
         {
-            string url = $"http://api.isportsapi.com/sport/football/topscorer?api_key=NDYCvrKY4dBFgk9w&leagueId={id}";
+            string url = $"http://api.isportsapi.com/sport/football/topscorer?api_key=DHABkUL14VHXnFtA&leagueId={id}";
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
 
             // GET request
@@ -225,7 +226,7 @@ namespace zdt_application.Controllers
         [HttpGet("getPlayerInfoById/{id}")]
         public async Task<ActionResult> GetPlayerInfoById(string id)
         {
-            string url = $"http://api.isportsapi.com/sport/football/player?api_key=NDYCvrKY4dBFgk9w&playerId={id}";
+            string url = $"http://api.isportsapi.com/sport/football/player?api_key=DHABkUL14VHXnFtA&playerId={id}";
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
 
             // GET request
@@ -245,7 +246,7 @@ namespace zdt_application.Controllers
         [HttpGet("getPlayerInfoByName/{name}")]
         public async Task<ActionResult> GetPlayerInfoByName(string name)
         {
-            string url = $"http://api.isportsapi.com/sport/football/player/search?api_key=NDYCvrKY4dBFgk9w&name={name}";
+            string url = $"http://api.isportsapi.com/sport/football/player/search?api_key=DHABkUL14VHXnFtA&name={name}";
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
 
             // GET request
@@ -308,6 +309,48 @@ namespace zdt_application.Controllers
         }      
 
       
+
+        [AllowAnonymous]
+        [HttpPut("edit/comment/{commentId}")]
+        public async Task<ActionResult> EditComment(Guid commentId, string comment)
+        {
+            var userComment = await _context.UserComments.FirstOrDefaultAsync(x => x.Id == commentId);
+            userComment.Comment = comment;
+          
+            await _context.SaveChangesAsync();
+            return Ok("Comment edited successfully");
+        }
+
+        [AllowAnonymous]
+        [HttpDelete("delete/comment/{commentId}")]
+        public async Task<ActionResult> EditComment(Guid commentId)
+        {
+            var userComment = await _context.UserComments.FirstOrDefaultAsync(x => x.Id == commentId);
+
+            _context.Remove(userComment);
+            await _context.SaveChangesAsync();
+            return Ok("Comment deleted successfully");
+        }
+
+        [AllowAnonymous]
+        [HttpGet("get/comments/{matchId}")]
+        public async Task<ActionResult<List<UserCommentDto>>> GetComments(int matchId)
+        {
+            var comments = await _context.UserComments.Where(uc => uc.MatchId == matchId).ToListAsync();
+            var user = _context.Users;
+
+            var commentLists = new List<UserCommentDto>();
+
+            foreach (var comment in comments)
+            {
+              commentLists.Add(new UserCommentDto
+              {
+                  Comment = comment.Comment,
+                  User = await user.FirstOrDefaultAsync(u => u.Id == comment.UserId)
+              });   
+            }
+            return Ok(commentLists);
+        }
 
         [AllowAnonymous]
         [HttpPost("predict/{userId}/{matchId}/{prediction}")]
@@ -424,6 +467,67 @@ namespace zdt_application.Controllers
         {
             var mostClickedMatches = _context.ClickedMatches.OrderBy(m => m.Clicked);
             return Ok(mostClickedMatches);
+        }
+
+        [AllowAnonymous]
+        [HttpGet("getTopRatedMatches")]
+        public async Task<ActionResult> TopRatedMatches()
+        {
+            var mostClickedMatches = _context.MatchRatings.OrderBy(m => m.Rate);
+            return Ok(mostClickedMatches);
+        }
+
+        [AllowAnonymous]
+        [HttpPost("predictWithResult")]
+        public async Task<ActionResult> PredictWithResultMatches(List<UserResultPredictionDto> matchesPredictions) 
+        {
+            var dataToAdd = new List<UserResultPrediction>();
+            foreach (var userResultPrediction in matchesPredictions)
+            {
+                dataToAdd.Add(new UserResultPrediction
+                {
+                    HomeScore = userResultPrediction.HomeScore,
+                    AwayScore = userResultPrediction.AwayScore,
+                    MatchId = userResultPrediction.MatchId,
+                    UserId = userResultPrediction.UserId
+                });
+            }
+
+            await _context.UserResultPredictions.AddRangeAsync(dataToAdd);
+                
+            return Ok("Prediction saved successfully");
+        }
+
+        [AllowAnonymous]
+        [HttpGet("getUserPredictionWithResult")]
+        public async Task<ActionResult> GetPredictionWithResultMatches(string userId)
+        {
+            var dataToReturn = await _context.UserResultPredictions.FirstOrDefaultAsync(p => p.UserId == userId);
+            return Ok(dataToReturn);
+        }
+
+
+        [AllowAnonymous]
+        [HttpPut("getUserPredictionWithResult")]
+        public async Task<ActionResult> EditResultPrediction(Guid predictionId, int? homeScore, int? awayScore)
+        {
+            var prediction = await _context.UserResultPredictions.FirstOrDefaultAsync(p => p.Id == predictionId);
+            prediction.HomeScore = homeScore ?? prediction.HomeScore;
+            prediction.AwayScore = awayScore ?? prediction.AwayScore;
+
+            await _context.SaveChangesAsync();
+            return Ok("Successfully edited");
+        }
+
+        [AllowAnonymous]
+        [HttpDelete("deleteUserPredictionWithResult")]
+        public async Task<ActionResult> DeleteResultPrediction(Guid predictionId)
+        {
+            var prediction = await _context.UserResultPredictions.FirstOrDefaultAsync(p => p.Id == predictionId);
+           
+            _context.UserResultPredictions.Remove(prediction);
+            await _context.SaveChangesAsync();
+            return Ok("Successfully deleted");
         }
 
 
