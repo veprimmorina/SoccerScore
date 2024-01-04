@@ -6991,19 +6991,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TECHCOM\\.nuget\\packages\\": {}
+    "C:\\Users\\elton\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TECHCOM\\Desktop\\project-zdt\\zdt-testing\\SpecFlowZdt\\SpecFlowZdt\\SpecFlowZdt.csproj",
+      "projectUniqueName": "D:\\Msc\\Semestri 3\\TDD\\App\\zdt-testing\\SpecFlowZdt\\SpecFlowZdt\\SpecFlowZdt.csproj",
       "projectName": "SpecFlowZdt",
-      "projectPath": "C:\\Users\\TECHCOM\\Desktop\\project-zdt\\zdt-testing\\SpecFlowZdt\\SpecFlowZdt\\SpecFlowZdt.csproj",
-      "packagesPath": "C:\\Users\\TECHCOM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TECHCOM\\Desktop\\project-zdt\\zdt-testing\\SpecFlowZdt\\SpecFlowZdt\\obj\\",
+      "projectPath": "D:\\Msc\\Semestri 3\\TDD\\App\\zdt-testing\\SpecFlowZdt\\SpecFlowZdt\\SpecFlowZdt.csproj",
+      "packagesPath": "C:\\Users\\elton\\.nuget\\packages\\",
+      "outputPath": "D:\\Msc\\Semestri 3\\TDD\\App\\zdt-testing\\SpecFlowZdt\\SpecFlowZdt\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\TECHCOM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\elton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7011,8 +7016,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.nuget.org/api/v2/curated-feeds/microsoftdotnet": {}
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
@@ -7071,7 +7076,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

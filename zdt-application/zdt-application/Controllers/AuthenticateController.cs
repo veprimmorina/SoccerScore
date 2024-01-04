@@ -40,7 +40,7 @@ namespace zdt_application.Controllers
 
         [AllowAnonymous]
         [HttpPost("LoginWithUsernameAndPassword")]
-        public async Task<ActionResult<UserDto>> LoginWithUsernameAndPassword(LoginModel model)
+        public async Task<ActionResult<UserDto>> LoginWithUsernameAndPassword([FromForm] LoginModel model)
         {
 
             var user = await _userManager.FindByNameAsync(model.Username);
@@ -61,13 +61,13 @@ namespace zdt_application.Controllers
                 });
             }
 
-            if (!user.EmailConfirmed)
-            {
-                return Ok(new
-                {
-                    message = "Please Confirm your email"
-                });
-            }
+            //if (!user.EmailConfirmed)
+            //{
+            //    return Ok(new
+            //    {
+            //        message = "Please Confirm your email"
+            //    });
+            //}
             if (user.isLoggedIn == false)
             {
 

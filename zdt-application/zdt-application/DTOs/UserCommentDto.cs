@@ -4,7 +4,9 @@ namespace zdt_application.DTOs
 {
     public class UserCommentDto
     {
-        public ApplicationUser User { get; set; }
+       // public ApplicationUser User { get; set; }
+
+        public string User {  get; set; }   
         public string Comment { get; set; } 
     }
 }

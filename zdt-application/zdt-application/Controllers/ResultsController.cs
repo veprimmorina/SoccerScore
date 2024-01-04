@@ -305,43 +305,9 @@ namespace zdt_application.Controllers
             {
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
-        }
+        }      
 
-        [AllowAnonymous]
-        [HttpPost("comment/{userId}/{matchid}/{comment}")]
-        public async Task<ActionResult> Comment(string userId, int matchid, string comment)
-        {
-            var userComment = new UserComment
-            {
-                UserId = userId,
-                MatchId = matchid,
-                Comment = comment
-            };
-
-            await _context.AddAsync(userComment);
-            await _context.SaveChangesAsync();
-            return Ok("Comment created successfully");
-        }
-
-        [AllowAnonymous]
-        [HttpGet("get/comments/{matchId}")]
-        public async Task<ActionResult<List<UserCommentDto>>> GetComments(int matchId)
-        {
-            var comments = await _context.UserComments.Where(uc => uc.MatchId == matchId).ToListAsync();
-            var user = _context.Users;
-
-            var commentLists = new List<UserCommentDto>();
-
-            foreach (var comment in comments)
-            {
-              commentLists.Add(new UserCommentDto
-              {
-                  Comment = comment.Comment,
-                  User = await user.FirstOrDefaultAsync(u => u.Id == comment.UserId)
-              });   
-            }
-            return Ok(commentLists);
-        }
+      
 
         [AllowAnonymous]
         [HttpPost("predict/{userId}/{matchId}/{prediction}")]
@@ -459,5 +425,28 @@ namespace zdt_application.Controllers
             var mostClickedMatches = _context.ClickedMatches.OrderBy(m => m.Clicked);
             return Ok(mostClickedMatches);
         }
+
+
+        [AllowAnonymous]
+        [HttpPost("AddComment/userId/matchId/comment")]
+        public async Task<ActionResult> AddComment(string userId, int matchId, string comment)
+        {
+            if(_context.UserComments == null)
+            {
+                return NotFound();
+            }
+
+            var model = new UserComment
+            {
+                UserId = userId,
+                Comment = comment,
+                MatchId = matchId
+            };
+            _context.UserComments.Add(model);
+            await _context.SaveChangesAsync();
+            return Ok("Comment was created!");
+        }
+       
+
     }
 }
