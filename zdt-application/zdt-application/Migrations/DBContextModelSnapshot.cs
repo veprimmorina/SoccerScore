@@ -345,6 +345,30 @@ namespace zdt_application.Migrations
                     b.ToTable("UserMatchPredictions");
                 });
 
+            modelBuilder.Entity("zdt_application.Models.UserResultPrediction", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("AwayScore")
+                        .HasColumnType("int");
+
+                    b.Property<int>("HomeScore")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MatchId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("UserResultPredictions");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)

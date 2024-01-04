@@ -13,6 +13,7 @@ namespace zdt_application.Data
         public DbSet<UserMatchPrediction> UserMatchPredictions { get; set; }
         public DbSet<MatchRating> MatchRatings { get; set; }
         public DbSet<MostClickedMatch> ClickedMatches { get; set; }
+        public DbSet<UserResultPrediction> UserResultPredictions { get; set; }
         public DBContext()
         {
 

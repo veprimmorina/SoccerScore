@@ -1,0 +1,34 @@
+﻿using SpecFlowZdt.Support;
+using System.Net.Http;
+using TechTalk.SpecFlow;
+using Xunit;
+
+namespace SpecFlowZdt.StepDefinitions
+{
+    [Binding]
+    public class GetFullInfoSteps
+    {
+        private readonly HttpClient _httpClient = new HttpClient();
+        private HttpResponseMessage _response;
+        private ApiHelper _apiHelper = new ApiHelper();
+
+        [Given(@"the external API is available")]
+        public async Task GivenTheExternalAPIIsAvailable()
+        {
+            // You may implement additional checks to verify the availability of the external API.
+            // For simplicity, I'll assume the external API is available.
+        }
+
+        [When(@"I send a GET request to the get full information endpoint")]
+        public async Task WhenISendGETRequestToGetFullInformationEndpoint()
+        {
+            _response = await _httpClient.GetAsync($"{_apiHelper.GetApi()}/YourControllerName/GetFullInfo");
+        }
+
+        [Then(@"the response status code should be (\d+) OK for retrieving full information")]
+        public void ThenTheResponseStatusCodeShouldBeOKForRetrievingFullInformation(int statusCode)
+        {
+            Assert.Equal(statusCode, (int)_response.StatusCode);
+        }
+    }
+}
