@@ -46,7 +46,7 @@ namespace zdt_application.Controllers
         [HttpGet("getMatchesByDate/{date}")]
         public async Task<ActionResult> GetMatchesByDate(string date)
         {
-            string url = $"http://api.isportsapi.com/sport/football/league/basic?api_key=DHABkUL14VHXnFtA&date={date}";
+            string url = $"http://api.isportsapi.com/sport/football/schedule/basic?api_key=DHABkUL14VHXnFtA&date={date}";
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
 
             // GET request
@@ -86,7 +86,8 @@ namespace zdt_application.Controllers
         [HttpGet("getAllSeasonMatchesByLeagueId/{id}")]
         public async Task<ActionResult> GetAllSeasonMatchesByLeagueId(string id)
         {
-            string url = $"http://api.isportsapi.com/sport/football/league/basic?api_key=DHABkUL14VHXnFtA&leagueId={id}";
+            
+            string url = $"http://api.isportsapi.com/sport/football/schedule/basic?api_key=DHABkUL14VHXnFtA&leagueId={id}";
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
 
             // GET request
