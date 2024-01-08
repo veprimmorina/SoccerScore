@@ -113,7 +113,7 @@ this.ScenarioInitialize(scenarioInfo);
 #line 5
     testRunner.Given("the application is available for registration", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-                TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
                             "Username",
                             "Email",
                             "Password",
@@ -121,16 +121,16 @@ this.ScenarioInitialize(scenarioInfo);
                             "PhoneNumber",
                             "Name",
                             "Surname"});
-                table1.AddRow(new string[] {
-                            "testuser",
-                            "test@example.com",
+                table2.AddRow(new string[] {
+                            "testuser1",
+                            "test1@example.com",
                             "P@ssw0rd",
                             "P@ssw0rd",
                             "1234567890",
                             "Test",
                             "Test"});
 #line 6
-    testRunner.When("I send a POST request to the register endpoint with the following data:", ((string)(null)), table1, "When ");
+    testRunner.When("I send a POST request to the register endpoint with the following data:", ((string)(null)), table2, "When ");
 #line hidden
 #line 9
     testRunner.Then("the response status code should be 200 OK for registration", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");

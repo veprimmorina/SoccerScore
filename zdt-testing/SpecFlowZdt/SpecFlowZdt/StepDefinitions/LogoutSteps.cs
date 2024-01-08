@@ -15,10 +15,7 @@ namespace SpecFlowZdt.StepDefinitions
         [Given(@"the user is logged in")]
         public async Task GivenTheUserIsLoggedIn()
         {
-            // You might want to implement a login step here, 
-            // or ensure that the user is already logged in before testing logout.
-            // This might involve making a login request and storing the JWT token.
-            // For simplicity, I'll assume the user is already logged in.
+            
         }
 
         [When(@"I send a GET request to the logout endpoint")]
