@@ -116,7 +116,7 @@ this.ScenarioInitialize(scenarioInfo);
                 TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
                             "PredictionId"});
                 table4.AddRow(new string[] {
-                            "1234-5678-ABCD-1234"});
+                            "2C18F9C3-A054-464F-91CF-975B4718A35C"});
 #line 6
  testRunner.When("I send a DELETE request to the delete result prediction endpoint with the followi" +
                         "ng data:", ((string)(null)), table4, "When ");

@@ -117,7 +117,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "UserId",
                             "Code"});
                 table1.AddRow(new string[] {
-                            "user1",
+                            "a9f9ccbf-3de4-4ae6-8f82-2459efcfbf0d",
                             "VGhpcyBpcyBhIGNvbmZpcm1lZCBjb2Rl"});
 #line 6
  testRunner.When("I send a GET request to the confirm email endpoint with the following data:", ((string)(null)), table1, "When ");

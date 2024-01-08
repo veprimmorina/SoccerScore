@@ -114,7 +114,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("the application is available for retrieving ratings", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 6
- testRunner.When("I send a GET request to the get rating endpoint with the match ID \"789\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("I send a GET request to the get rating endpoint with the match ID \"456\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 7
  testRunner.Then("the response status code should be 200 OK for retrieving ratings successfully", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");

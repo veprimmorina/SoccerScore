@@ -114,8 +114,8 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("the application is available for pinning a league", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 6
- testRunner.When("I send a POST request to the pin league endpoint with the user ID \"user123\" and l" +
-                        "eague ID \"789\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("I send a POST request to the pin league endpoint with the user ID \"a9f9ccbf-3de4-" +
+                        "4ae6-8f82-2459efcfbf0d\" and league ID \"789\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 7
  testRunner.Then("the response status code should be 200 OK for pinning the league successfully", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");

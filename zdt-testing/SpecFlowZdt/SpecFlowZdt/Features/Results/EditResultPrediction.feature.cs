@@ -118,7 +118,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "HomeScore",
                             "AwayScore"});
                 table5.AddRow(new string[] {
-                            "1234-5678-ABCD-1234",
+                            "2C18F9C3-A054-464F-91CF-975B4718A35C",
                             "2",
                             "1"});
 #line 6

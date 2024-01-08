@@ -508,7 +508,7 @@ namespace zdt_application.Controllers
 
 
         [AllowAnonymous]
-        [HttpPut("getUserPredictionWithResult")]
+        [HttpPut("editUserPredictionWithResult")]
         public async Task<ActionResult> EditResultPrediction(Guid predictionId, int? homeScore, int? awayScore)
         {
             var prediction = await _context.UserResultPredictions.FirstOrDefaultAsync(p => p.Id == predictionId);

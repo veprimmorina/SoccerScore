@@ -116,7 +116,7 @@ this.ScenarioInitialize(scenarioInfo);
                 TechTalk.SpecFlow.Table table6 = new TechTalk.SpecFlow.Table(new string[] {
                             "UserId"});
                 table6.AddRow(new string[] {
-                            "user1"});
+                            "123"});
 #line 6
  testRunner.When("I send a GET request to the get user prediction with result matches endpoint with" +
                         " the following data:", ((string)(null)), table6, "When ");

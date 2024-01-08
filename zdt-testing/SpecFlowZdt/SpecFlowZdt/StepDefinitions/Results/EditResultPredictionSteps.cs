@@ -30,15 +30,9 @@ namespace SpecFlowZdt.StepDefinitions
                 var homeScore = int.Parse(row["HomeScore"]);
                 var awayScore = int.Parse(row["AwayScore"]);
 
-                var url = $"{_apiHelper.GetApi()}/Results/getUserPredictionWithResult";
-                var content = new StringContent(JsonConvert.SerializeObject(new
-                {
-                    predictionId,
-                    homeScore,
-                    awayScore
-                }), Encoding.UTF8, "application/json");
+                var url = $"{_apiHelper.GetApi()}/Results/editUserPredictionWithResult?predictionId={predictionId}&homeScore={homeScore}&awayScore={awayScore}";
 
-                _response = await _httpClient.PutAsync(url, content);
+                _response = await _httpClient.PutAsync(url, null);
             }
         }
 

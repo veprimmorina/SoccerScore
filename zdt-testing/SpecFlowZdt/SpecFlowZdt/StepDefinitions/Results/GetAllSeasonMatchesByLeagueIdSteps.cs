@@ -21,7 +21,7 @@ namespace SpecFlowZdt.StepDefinitions
         [When(@"I send a GET request to the get all season matches by league ID endpoint with the league ID ""(.*)""")]
         public async Task WhenISendGETRequestToGetAllSeasonMatchesByLeagueIdEndpointWithTheLeagueId(string id)
         {
-            _response = await _httpClient.GetAsync($"{_apiHelper.GetApi()}/YourControllerName/getAllSeasonMatchesByLeagueId/{id}");
+            _response = await _httpClient.GetAsync($"{_apiHelper.GetApi()}/Results/getAllSeasonMatchesByLeagueId/{id}");
         }
 
         [Then(@"the response status code should be (\d+) OK for retrieving all season matches by league ID")]

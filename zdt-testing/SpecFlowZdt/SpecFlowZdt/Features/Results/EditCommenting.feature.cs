@@ -114,8 +114,8 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("the application is available for editing a comment", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 6
- testRunner.When("I send a PUT request to the edit comment endpoint with the comment ID \"123\" and n" +
-                        "ew comment content \"Updated Comment\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("I send a PUT request to the edit comment endpoint with the comment ID \"76B87460-1" +
+                        "75F-4F76-868D-08DC0E290AA0\" and new comment content \"Updated Comment\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 7
  testRunner.Then("the response status code should be 200 OK for editing the comment successfully", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");

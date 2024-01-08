@@ -21,9 +21,8 @@ namespace SpecFlowZdt.StepDefinitions
         [When(@"I send a PUT request to the edit comment endpoint with the comment ID ""(.*)"" and new comment content ""(.*)""")]
         public async Task WhenISendPUTRequestToEditCommentEndpointWithTheCommentIdAndNewCommentContent(Guid commentId, string newComment)
         {
-            var url = $"{_apiHelper.GetApi()}/Results/edit/comment/{commentId}";
-            var content = new StringContent(newComment);
-            _response = await _httpClient.PutAsync(url, content);
+            var url = $"{_apiHelper.GetApi()}/Results/edit/comment/{commentId}/?comment={newComment}";
+            _response = await _httpClient.PutAsync(url, null);
         }
 
         [Then(@"the response status code should be (\d+) OK for editing the comment successfully")]

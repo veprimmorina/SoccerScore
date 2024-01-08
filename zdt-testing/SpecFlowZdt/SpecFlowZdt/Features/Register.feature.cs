@@ -122,8 +122,8 @@ this.ScenarioInitialize(scenarioInfo);
                             "Name",
                             "Surname"});
                 table2.AddRow(new string[] {
-                            "testuser",
-                            "test@example.com",
+                            "testuser1",
+                            "test1@example.com",
                             "P@ssw0rd",
                             "P@ssw0rd",
                             "1234567890",

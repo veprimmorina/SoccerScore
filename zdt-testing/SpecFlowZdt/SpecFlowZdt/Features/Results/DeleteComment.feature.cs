@@ -114,7 +114,8 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("the application is available for deleting a comment", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 6
- testRunner.When("I send a DELETE request to the delete comment endpoint with the comment ID \"456\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("I send a DELETE request to the delete comment endpoint with the comment ID \"950D3" +
+                        "3E6-010A-4EAA-E243-08DBF8B389C9\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 7
  testRunner.Then("the response status code should be 200 OK for deleting the comment successfully", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");

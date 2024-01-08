@@ -115,7 +115,7 @@ this.ScenarioInitialize(scenarioInfo);
 #line hidden
 #line 6
  testRunner.When("I send a GET request to the get all season matches by league ID endpoint with the" +
-                        " league ID \"456\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+                        " league ID \"111\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 7
  testRunner.Then("the response status code should be 200 OK for retrieving all season matches by le" +

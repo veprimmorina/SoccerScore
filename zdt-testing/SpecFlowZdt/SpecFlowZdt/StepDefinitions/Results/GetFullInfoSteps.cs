@@ -15,14 +15,13 @@ namespace SpecFlowZdt.StepDefinitions
         [Given(@"the external API is available")]
         public async Task GivenTheExternalAPIIsAvailable()
         {
-            // You may implement additional checks to verify the availability of the external API.
-            // For simplicity, I'll assume the external API is available.
+            _response = await _apiHelper.GetAsync(_apiHelper.GetApi() + "/Base");
         }
 
         [When(@"I send a GET request to the get full information endpoint")]
         public async Task WhenISendGETRequestToGetFullInformationEndpoint()
         {
-            _response = await _httpClient.GetAsync($"{_apiHelper.GetApi()}/YourControllerName/GetFullInfo");
+            _response = await _httpClient.GetAsync($"{_apiHelper.GetApi()}/Results");
         }
 
         [Then(@"the response status code should be (\d+) OK for retrieving full information")]

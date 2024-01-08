@@ -113,24 +113,24 @@ this.ScenarioInitialize(scenarioInfo);
 #line 5
  testRunner.Given("the application is available for predicting matches with results", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-                TechTalk.SpecFlow.Table table7 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table9 = new TechTalk.SpecFlow.Table(new string[] {
                             "UserId",
                             "MatchId",
                             "HomeScore",
                             "AwayScore"});
-                table7.AddRow(new string[] {
+                table9.AddRow(new string[] {
                             "user1",
                             "123",
                             "2",
                             "1"});
-                table7.AddRow(new string[] {
+                table9.AddRow(new string[] {
                             "user2",
                             "456",
                             "0",
                             "2"});
 #line 6
  testRunner.When("I send a POST request to the predict with result matches endpoint with the follow" +
-                        "ing data:", ((string)(null)), table7, "When ");
+                        "ing data:", ((string)(null)), table9, "When ");
 #line hidden
 #line 10
  testRunner.Then("the response status code should be 200 OK for predicting matches with results suc" +
