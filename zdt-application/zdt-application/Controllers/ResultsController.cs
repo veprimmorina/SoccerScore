@@ -332,25 +332,25 @@ namespace zdt_application.Controllers
             return Ok("Comment deleted successfully");
         }
 
-        [AllowAnonymous]
-        [HttpGet("get/comments/{matchId}")]
-        public async Task<ActionResult<List<UserCommentDto>>> GetComments(int matchId)
-        {
-            var comments = await _context.UserComments.Where(uc => uc.MatchId == matchId).ToListAsync();
-            var user = _context.Users;
+        //[AllowAnonymous]
+        //[HttpGet("get/comments/{matchId}")]
+        //public async Task<ActionResult<List<UserCommentDto>>> GetComments(int matchId)
+        //{
+        //    var comments = await _context.UserComments.Where(uc => uc.MatchId == matchId).ToListAsync();
+        //    var user = _context.Users;
 
-            var commentLists = new List<UserCommentDto>();
+        //    var commentLists = new List<UserCommentDto>();
 
-            foreach (var comment in comments)
-            {
-              commentLists.Add(new UserCommentDto
-              {
-                  Comment = comment.Comment,
-                  User = await user.FirstOrDefaultAsync(u => u.Id == comment.UserId)
-              });   
-            }
-            return Ok(commentLists);
-        }
+        //    foreach (var comment in comments)
+        //    {
+        //      commentLists.Add(new UserCommentDto
+        //      {
+        //          Comment = comment.Comment,
+        //          User = await user.FirstOrDefaultAsync(u => u.Id == comment.UserId)
+        //      });   
+        //    }
+        //    return Ok(commentLists);
+        //}
 
         [AllowAnonymous]
         [HttpPost("predict/{userId}/{matchId}/{prediction}")]

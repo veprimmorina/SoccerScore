@@ -35,18 +35,18 @@ const token = localStorage.getItem("token");
             <Link
               variant="button"
               color="text.primary"
-              href="#"
+              href="/LeaguesList"
               sx={{ my: 1, mx: 1.5 }}
             >
-              Features
+              Leagues
             </Link>
             <Link
               variant="button"
               color="text.primary"
-              href="#"
+              href="TeamsList"
               sx={{ my: 1, mx: 1.5 }}
             >
-              Enterprise
+              Teams
             </Link>
             <Link
               variant="button"
