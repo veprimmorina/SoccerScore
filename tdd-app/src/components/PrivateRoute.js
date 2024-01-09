@@ -6,6 +6,7 @@ import Home from './Home';
 import LeaguesList from './Leagues/LeaguesList';
 import LeagueStandings from './Leagues/LeagueStandings';
 import TeamInfos from './Teams/TeamInfos';
+import AllLeagesGames from './Games/AllLeagesGames';
 
 function PrivateRoute() {
     const { enqueueSnackbar } = useSnackbar();
@@ -21,6 +22,7 @@ function PrivateRoute() {
             <Route path="/LeaguesList" element={<LeaguesList/>}  />
             <Route path="/LeagueStandings/:id" element={<LeagueStandings/>}  />
             <Route path="/TeamInfos/:name/:id" element={<TeamInfos/>}  />
+            <Route path="/AllGames/:leagueId" element={<AllLeagesGames/>}  />
          </Routes>
         )
     }else{

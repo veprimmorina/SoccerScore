@@ -127,7 +127,8 @@ namespace zdt_application.Controllers
         [HttpGet("getLeagueById/{id}")]
         public async Task<ActionResult> GetLeagueInfo(string id)
         {
-            string url = $"http://api.isportsapi.com/sport/football/team?api_key=DHABkUL14VHXnFtA&leagueId={id}";
+           // string url = $"http://api.isportsapi.com/sport/football/team?api_key=DHABkUL14VHXnFtA&leagueId={id}";
+            string url = $"http://api.isportsapi.com/sport/football/league/basic?api_key=DHABkUL14VHXnFtA&leagueId={id}";
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
 
             // GET request

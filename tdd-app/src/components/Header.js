@@ -32,6 +32,14 @@ const token = localStorage.getItem("token");
             Flash Score
           </Typography>
           <nav>
+          <Link
+              variant="button"
+              color="text.primary"
+              href="/Home"
+              sx={{ my: 1, mx: 1.5 }}
+            >
+              Home
+            </Link>
             <Link
               variant="button"
               color="text.primary"
@@ -40,22 +48,8 @@ const token = localStorage.getItem("token");
             >
               Leagues
             </Link>
-            <Link
-              variant="button"
-              color="text.primary"
-              href="TeamsList"
-              sx={{ my: 1, mx: 1.5 }}
-            >
-              Teams
-            </Link>
-            <Link
-              variant="button"
-              color="text.primary"
-              href="#"
-              sx={{ my: 1, mx: 1.5 }}
-            >
-              Support
-            </Link>
+            
+           
           </nav>
           {token ? 
           (

@@ -11,12 +11,14 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import CircularProgress from '@mui/material/CircularProgress';
 
 function LeagueStandings() {
  let api = useAxios();
  const {id} = useParams();
  const { enqueueSnackbar } = useSnackbar();
  const [infos,setInfos] = useState();  
+ const [isLoading, setIsLoading] = useState(true);
 
  async function getLeagueStandings(){
     console.log("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee")
@@ -24,6 +26,7 @@ function LeagueStandings() {
     .then((res)=>{
         console.log(res)
         setInfos(res.data.data);
+        setIsLoading(false);
     })
     .catch((error)=>{
         console.log(error)
@@ -73,7 +76,11 @@ function LeagueStandings() {
   return (
     <div>
         <Header/>
-        <div>
+        {isLoading == true ? 
+            ( <div className='w-100 h-100 d-flex justify-content-center align-items-center'>
+            <CircularProgress size={150} color="success" />
+            </div>) : (
+            <div>
             <div><span></span></div>
             <div>
                 
@@ -98,6 +105,8 @@ function LeagueStandings() {
                  </TableContainer>
             </div>
         </div>
+         )}
+       
     </div>
   )
 }

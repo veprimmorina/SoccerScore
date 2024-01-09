@@ -27,13 +27,11 @@ namespace zdt_application.Controllers
          UserManager<ApplicationUser> userManager,
          RoleManager<IdentityRole> roleManager,
          IWebHostEnvironment hostingEnvironment,
-         //IEmailService emailService,
          IConfiguration configuration,
          DBContext context) : base(userManager, configuration)
         {
             _roleManager = roleManager;
             _hostingEnvironment = hostingEnvironment;
-            //_emailService = emailService;
             _context = context;
         }
 
@@ -61,13 +59,7 @@ namespace zdt_application.Controllers
                 });
             }
 
-            //if (!user.EmailConfirmed)
-            //{
-            //    return Ok(new
-            //    {
-            //        message = "Please Confirm your email"
-            //    });
-            //}
+
             if (user.isLoggedIn == false)
             {
 
@@ -95,25 +87,13 @@ namespace zdt_application.Controllers
                     SameSite = SameSiteMode.None,
                     Secure = true
                 });
-                //var lang = Request.Cookies["lang"];
-                //if (lang == null)
-                //{
-                //    Response.Cookies.Append("lang", "en-us", new CookieOptions
-                //    {
-                //        HttpOnly = true,
-                //        SameSite = SameSiteMode.None,
-                //        Secure = true
-                //    });
-                //    lang = "en-us";
-                //}
+        
                 return Ok(new
                 {
                     username = user.UserName,
                     role = authClaims[2].Value,
                     Token = new JwtSecurityTokenHandler().WriteToken(token),
-                   // Lang = lang
-                    // RefreshToken = refreshToken,
-                    //Expiration = token.ValidTo
+                 
                 });
             }
             else
@@ -167,8 +147,6 @@ namespace zdt_application.Controllers
                     role = authClaims[2].Value,
                     Token = new JwtSecurityTokenHandler().WriteToken(token),
                     Lang = lang
-                    // RefreshToken = refreshToken,
-                    //Expiration = token.ValidTo
                 });
             }
         }
@@ -200,10 +178,7 @@ namespace zdt_application.Controllers
             if (!result.Succeeded)
                 return StatusCode(StatusCodes.Status500InternalServerError, new { Status = "Error", Message = "User creation failed! Please check user details and try again." });
 
-            // If you want to assign a role to the newly created user
-            //if (!await _roleManager.RoleExistsAsync(UserRoles.User))
-            //    await _roleManager.CreateAsync(new IdentityRole(UserRoles.User));
-            //await _userManager.AddToRoleAsync(user, UserRoles.User);
+   
 
             return Ok(new { Status = "Success", Message = "User created successfully!" });
         }

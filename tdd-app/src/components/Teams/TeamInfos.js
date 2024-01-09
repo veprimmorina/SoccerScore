@@ -5,6 +5,7 @@ import Link from '@mui/material/Link';
 import Header from '../Header';
 import { useParams } from 'react-router-dom';
 import { ListItem } from '@mui/material';
+import CircularProgress from '@mui/material/CircularProgress';
 
 function TeamInfos() {
     let api = useAxios();
@@ -13,13 +14,14 @@ function TeamInfos() {
     const [team,setTeam] = useState([]);
     const [players,setPlayers] = useState([]);
     const token = localStorage.getItem("token");
+    const [isLoading, setIsLoading] = useState(true);
 
     async function getTeamByName(){
-        console.log("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee")
         await api.get(`/Results/getTeamByName/${name}`)
         .then((res)=>{
             console.log(res)
             setTeam(res.data.data);
+            setIsLoading(false);
         })
         .catch((error)=>{
             console.log(error)
@@ -177,18 +179,25 @@ function TeamInfos() {
   return (
     <div>
         <Header/>
-        
-        <div>
-            {listTeamInfos}
-        </div>
-        <hr/>
-        <span style={{fontSize:"x-large", fontWeight:"bold"}} className='m-3'>Players</span>
-        <div className='container'>
-            <div className='row d-flex justify-content-center '>
-              {listTeamPlayers}
+        {isLoading == true ? 
+            ( <div className='w-100 h-100 d-flex justify-content-center align-items-center'>
+             <CircularProgress size={150} color="success" />
+            </div>) : (
+            <div>
+                <div>
+                    {listTeamInfos}
+                </div>
+                <hr/>
+                <span style={{fontSize:"x-large", fontWeight:"bold"}} className='m-3'>Players</span>
+                <div className='container'>
+                    <div className='row d-flex justify-content-center '>
+                    {listTeamPlayers}
+                    </div>
+                
+                </div>
             </div>
-           
-        </div>
+        )}
+        
     </div>
   )
 }
