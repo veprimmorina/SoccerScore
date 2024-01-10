@@ -45,7 +45,7 @@ function Login() {
         localStorage.setItem("token",res.data.token);
         localStorage.setItem("username",res.data.username)
         localStorage.setItem("role",res.data.role)
-        navigate("/Home")
+        navigate("/")
       }
     })
     .catch((error)=>{
@@ -60,7 +60,7 @@ function Login() {
   useEffect(()=>{
     if(token !=null){
       console.log(token)
-      navigate("/home")
+      navigate("/")
     }
   })
   return (

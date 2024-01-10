@@ -35,7 +35,7 @@ const token = localStorage.getItem("token");
           <Link
               variant="button"
               color="text.primary"
-              href="/Home"
+              href="/"
               sx={{ my: 1, mx: 1.5 }}
             >
               Home
