@@ -1,4 +1,4 @@
-# project-zdt
+# Soccer Score
 
 Project Goal:
 To create a sports information website that offers users a unique experience in accessing and following results, matches, and statistics across various sports.
