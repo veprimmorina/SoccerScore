@@ -1,6 +1,6 @@
 ﻿using SpecFlowZdt.Support;
 
-namespace SpecFlowZdt.StepDefinitions
+namespace SpecFlowZdt.StepDefinitions.User
 {
     [Binding]
     public class ConfirmEmailSteps

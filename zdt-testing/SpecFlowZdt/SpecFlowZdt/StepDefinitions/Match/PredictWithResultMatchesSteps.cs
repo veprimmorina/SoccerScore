@@ -2,7 +2,7 @@
 using SpecFlowZdt.Support;
 using System.Text;
 
-namespace SpecFlowZdt.StepDefinitions
+namespace SpecFlowZdt.StepDefinitions.League
 {
     [Binding]
     public class PredictWithResultMatchesSteps

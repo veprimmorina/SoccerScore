@@ -1,6 +1,6 @@
 ﻿using SpecFlowZdt.Support;
 
-namespace SpecFlowZdt.StepDefinitions
+namespace SpecFlowZdt.StepDefinitions.Match
 {
     [Binding]
     public class EditCommentSteps

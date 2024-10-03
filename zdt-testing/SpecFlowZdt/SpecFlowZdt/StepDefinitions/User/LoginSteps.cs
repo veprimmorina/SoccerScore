@@ -3,7 +3,7 @@ using SpecFlowZdt.Support;
 using System.Text;
 using TechTalk.SpecFlow.Assist;
 
-namespace SpecFlowZdt.StepDefinitions
+namespace SpecFlowZdt.StepDefinitions.User
 {
     [Binding]
     public class LoginSteps

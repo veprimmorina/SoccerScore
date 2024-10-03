@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpecFlowZdt")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea949f16b3936d94e35a22e2634c9901bf4a16db")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1035879a7eb309b73cb9222a58acd433ae7363b6")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpecFlowZdt")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpecFlowZdt")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

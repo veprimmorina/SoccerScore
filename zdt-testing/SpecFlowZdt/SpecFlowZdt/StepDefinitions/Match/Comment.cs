@@ -1,7 +1,7 @@
 ﻿using SpecFlowZdt.Support;
 using TechTalk.SpecFlow.Assist;
 
-namespace SpecFlowZdt.StepDefinitions.Results
+namespace SpecFlowZdt.StepDefinitions.League
 {
     [Binding]
     public class Comment

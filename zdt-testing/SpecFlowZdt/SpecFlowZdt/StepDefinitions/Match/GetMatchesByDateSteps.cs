@@ -1,6 +1,6 @@
 ﻿using SpecFlowZdt.Support;
 
-namespace SpecFlowZdt.StepDefinitions.Results
+namespace SpecFlowZdt.StepDefinitions.League
 {
     [Binding]
     public class GetMatchesByDateSteps
@@ -17,7 +17,7 @@ namespace SpecFlowZdt.StepDefinitions.Results
         [When(@"I send a GET request to the get matches by date endpoint with specified date ""(.*)""")]
         public async Task WhenISendGETRequestToGetMatchesByDateEndpointWithDate(string date)
         {
-            _response = await _apiHelper.GetAsync(_apiHelper.GetApi()+ $"/results/getMatchesByDate/{date}");
+            _response = await _apiHelper.GetAsync(_apiHelper.GetApi() + $"/results/getMatchesByDate/{date}");
         }
 
         [Then(@"the response status code should be (\d+) OK")]

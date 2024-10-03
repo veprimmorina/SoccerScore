@@ -1,6 +1,6 @@
 ﻿using SpecFlowZdt.Support;
 
-namespace SpecFlowZdt.StepDefinitions
+namespace SpecFlowZdt.StepDefinitions.League
 {
     [Binding]
     public class EditResultPredictionSteps

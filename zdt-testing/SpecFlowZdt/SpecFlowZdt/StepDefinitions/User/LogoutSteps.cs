@@ -1,6 +1,6 @@
 ﻿using SpecFlowZdt.Support;
 
-namespace SpecFlowZdt.StepDefinitions
+namespace SpecFlowZdt.StepDefinitions.User
 {
     [Binding]
     public class LogoutSteps
@@ -12,7 +12,7 @@ namespace SpecFlowZdt.StepDefinitions
         [Given(@"the user is logged in")]
         public async Task GivenTheUserIsLoggedIn()
         {
-            
+
         }
 
         [When(@"I send a GET request to the logout endpoint")]
