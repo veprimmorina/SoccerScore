@@ -27,3 +27,12 @@ Retry
 After completing the functionality, the execution of the tests is retried.
 
 ![image](https://github.com/user-attachments/assets/f8a4e1d2-60f5-48d4-85f2-48803626eec4)
+
+Advantages of separating Testing from Application:
+Easier maintenance
+Scalability
+Separation of requests
+Parallel Development
+
+Class Diagram: 
+![image](https://github.com/user-attachments/assets/70f2e815-e789-4327-b879-19dc784bc2dd)
