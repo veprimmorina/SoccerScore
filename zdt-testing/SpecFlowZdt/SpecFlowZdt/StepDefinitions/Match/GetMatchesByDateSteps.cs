@@ -1,8 +1,4 @@
-﻿using Newtonsoft.Json;
-using SpecFlowZdt.Support;
-using System.Net.Http;
-using System.Text;
-using TechTalk.SpecFlow.Assist;
+﻿using SpecFlowZdt.Support;
 
 namespace SpecFlowZdt.StepDefinitions.Results
 {

@@ -1,7 +1,4 @@
 ﻿using SpecFlowZdt.Support;
-using System.Net.Http;
-using TechTalk.SpecFlow;
-using Xunit;
 
 namespace SpecFlowZdt.StepDefinitions
 {

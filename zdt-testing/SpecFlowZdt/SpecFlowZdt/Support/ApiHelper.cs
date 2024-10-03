@@ -4,6 +4,7 @@
     {
         private readonly HttpClient _httpClient;
         private readonly string _api;
+
         public ApiHelper()
         {
             _httpClient = new HttpClient();
@@ -24,6 +25,5 @@
         {
             return _api;
         }
-        
     }
 }

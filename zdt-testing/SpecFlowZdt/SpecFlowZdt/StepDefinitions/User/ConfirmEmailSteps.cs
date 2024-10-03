@@ -12,9 +12,7 @@ namespace SpecFlowZdt.StepDefinitions
         [Given(@"a user with a confirmation code")]
         public async Task GivenAUserWithAConfirmationCode()
         {
-            // You may need to implement a step to create a user and generate a confirmation code.
-            // This might involve making a registration request and extracting the confirmation code.
-            // For simplicity, I'll assume a user with a known confirmation code.
+            // Implementing a step to create a user and generate a confirmation code.
         }
 
         [When(@"I send a GET request to the confirm email endpoint with the following data:")]
