@@ -253,7 +253,6 @@ C:\Users\TECHCOM\Desktop\project-zdt\zdt-application\zdt-application\obj\Debug\n
 C:\Users\TECHCOM\Desktop\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\TECHCOM\Desktop\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\staticwebassets.development.json
 C:\Users\TECHCOM\Desktop\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\scopedcss\bundle\zdt-application.styles.css
-C:\Users\TECHCOM\Desktop\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.csproj.CopyComplete
 C:\Users\TECHCOM\Desktop\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.dll
 C:\Users\TECHCOM\Desktop\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\refint\zdt-application.dll
 C:\Users\TECHCOM\Desktop\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.pdb
@@ -365,3 +364,6 @@ D:\Msc\Semestri 3\TDD\App\zdt-application\zdt-application\obj\Debug\net7.0\refin
 D:\Msc\Semestri 3\TDD\App\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.pdb
 D:\Msc\Semestri 3\TDD\App\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.genruntimeconfig.cache
 D:\Msc\Semestri 3\TDD\App\zdt-application\zdt-application\obj\Debug\net7.0\ref\zdt-application.dll
+C:\Users\TECHCOM\Desktop\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\zdt-application.sourcelink.json
+C:\Users\TECHCOM\Desktop\project-zdt\zdt-application\zdt-application\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\TECHCOM\Desktop\project-zdt\zdt-application\zdt-application\obj\Debug\net7.0\zdt-appl.0D87E566.Up2Date

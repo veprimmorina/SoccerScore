@@ -2,12 +2,16 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using zdt_application.Auth;
 using zdt_application.Data;
-using Microsoft.AspNetCore.Authentication;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Text.Json.Serialization;
 using Microsoft.OpenApi.Models;
+using zdt_application.Application.Services;
+using zdt_application.Infrastructure;
+using zdt_application.Application.Services.Base;
+using AutoMapper;
+using zdt_application.Application.Mappers;
 
 var builder = WebApplication.CreateBuilder(args);
 var myAllowSpecificOrigins = "_myAlloSpecificOrigins";
@@ -47,7 +51,6 @@ builder.Services.AddAuthentication(options =>
         ValidateIssuerSigningKey = true,
         ValidateIssuer = true,
         ValidIssuer = configuration["JWT:ValidIssuer"],
-        //ValidateAudience = true,
         ValidAudience = configuration["JWT:ValidAudience"],
         ValidateLifetime = true,
         ClockSkew = TimeSpan.Zero,
@@ -102,13 +105,24 @@ builder.Services.AddCors(options =>
        });
 });
 
+var mapperConfig = new MapperConfiguration(cfg => {
+    cfg.AddProfile<MappingProfile>();
+});
+builder.Services.AddSingleton<IMapper>(mapperConfig.CreateMapper());
+
+builder.Services.AddScoped<ILeagueService, LeagueService>();
+builder.Services.AddScoped<IMatchesService, MatchesService>();
+builder.Services.AddScoped<IPlayerService, PlayerService>();
+builder.Services.AddScoped<ILeagueRepository, LeagueRepository>();
+builder.Services.AddScoped<IMatchRepository, MatchRepository>();
+builder.Services.AddScoped<IAuthService, zdt_application.Application.Services.AuthenticationService>();
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -123,7 +137,7 @@ app.UseAuthorization();
 
 app.UseEndpoints(endpoints =>
 {
-    endpoints.MapControllers();  // Ensure this is present
+    endpoints.MapControllers();
 });
 
 app.Run();

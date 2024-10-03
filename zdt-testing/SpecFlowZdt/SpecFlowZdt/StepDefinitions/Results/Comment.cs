@@ -6,7 +6,6 @@ namespace SpecFlowZdt.StepDefinitions.Results
     [Binding]
     public class Comment
     {
-        private readonly HttpClient _httpClient = new HttpClient();
         private HttpResponseMessage _response;
         private ApiHelper _apiHelper = new ApiHelper();
         private CommentModel _commentModel;

@@ -2,7 +2,7 @@
 {
     public class MostClickedMatch
     {
-        public Guid id { get; set; }
+        public Guid Id { get; set; }
         public int MatchId { get; set; }
         public int Clicked { get; set; }
     }
